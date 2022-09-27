@@ -4,6 +4,14 @@
     box-sizing: border-box;
   }
   
+  /* estil del logo */
+  .header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+
   body {
     margin: 0 auto;
     min-width: 1000px;
@@ -40,16 +48,20 @@
   /* header and footer */
   
   header{
-    text-align: center;
+    text-align:justify;
   }
 
   header, footer {
-    border-top: 1.5px solid #a66;
-    border-bottom: 1.5px solid #a66;
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
   }
 
   nav, li a :hover{
     background-color: ghostwhite; 
+  }
+
+  nav, .active {
+    background-color: ghostwhite;
   }
 
   nav li {
@@ -68,4 +80,9 @@
     overflow: hidden;
   }
   
+  li a:hover {
+    background-color: white;
+
+  }
+
   /* WRITE YOUR CODE BELOW HERE */
