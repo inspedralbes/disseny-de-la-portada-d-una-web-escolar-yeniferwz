@@ -1,0 +1,71 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: 'Libre Baskerville', serif;
+    word-spacing: 0.3em;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header{
+    text-align: center;
+  }
+
+  header, footer {
+    border-top: 1.5px solid #a66;
+    border-bottom: 1.5px solid #a66;
+  }
+
+  nav, li a :hover{
+    background-color: ghostwhite; 
+  }
+
+  nav li {
+    display:block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-kerning: auto;
+  }
+
+  nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
