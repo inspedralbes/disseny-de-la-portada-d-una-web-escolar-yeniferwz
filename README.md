@@ -1,15 +1,3 @@
-# transversals
-Esquema mínim de carpetes pels projectes transversals
+# UF1 NF1 Pt4 Composició bàsica - Disseny de la portada d'una web escolar
 
-És obligatori seguir aquesta estructura tot i que la podeu ampliar.
-
-## Atenció
-Un cop comenceu heu de canviar aquesta explicació amb la corresponent al vostre projecte (utilitzant markdown)
-
-
-# Aquest fitxer ha de contenir com a mínim:
- * Nom dels integrants
- * Nom del projecte
- * Petita descripció
- * URL de producció (quan la tingueu)
- * Estat: (explicació de en quin punt està)
+# Yenifer Wu Zhang
