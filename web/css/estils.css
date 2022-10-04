@@ -4,6 +4,19 @@
     box-sizing: border-box;
   }
   
+  .wrapper{
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color:white;
+  }
+
+  .wrapper div{
+    background-color: red;
+  }
+  
+
   /* estil del logo */
   .header img{
     float: left;
