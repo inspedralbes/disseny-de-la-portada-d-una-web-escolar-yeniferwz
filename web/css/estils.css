@@ -1,0 +1,123 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .wrapper{
+    display:grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color:white;
+  }
+
+  .wrapper div{
+    background-color: red;
+  }
+  
+
+  /* estil del logo */
+  .header img{
+    float: left;
+    width: 100px;
+    height: 100px;
+  }
+
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: 'Jost', sans-serif;
+    word-spacing: 0.3em;
+    background-color:#FCFCFC ;
+    font-size: 16px;
+  }
+
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float:left;
+    width: 20%;
+    background-color: #FCFCFC;
+  }
+
+  nav{
+    float: left;
+    width: 22%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, nav,aside, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header{
+    text-align:justify;
+  }
+
+  header, footer {
+    border-top: 1.6px solid #e5e5e5;
+    border-bottom: 1.6px solid #e5e5e5;
+  }
+
+  a[href^="http"] {
+    background: url("https://w7.pngwing.com/pngs/343/347/png-transparent-link-external-feather-icon.png") no-repeat 100% 0;
+    padding-right: 15px;
+    background-size: 12px 12px;
+  }
+
+  a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color:#0096c7;
+  }
+
+  a:visited{
+    color:#FF9156;
+  }
+
+  a:hover{
+    color: black;
+  }
+
+  .navbar ul li{
+    list-style: none;
+    font-size: larger;
+    border: 1px solid #FF9156;
+    text-decoration: none;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: #FF9156;
+    
+  }
+
+  section p{
+    text-indent: 25px;
+  }
+
+  .navbar li:hover{
+    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    box-shadow: none;
+  }
+
+  .navbar li a:hover{
+    color:black;
+  }
+
+  .navbar ul li a{
+    text-decoration: none;
+    color:white;
+  }

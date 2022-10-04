@@ -1,15 +1,7 @@
-# transversals
-Esquema mínim de carpetes pels projectes transversals
+# UF1 NF1 Pt4 Composició bàsica - Disseny de la portada d'una web escolar
 
-És obligatori seguir aquesta estructura tot i que la podeu ampliar.
+Per fer desplegar la pàgina he fet servir el PuTTy per conectar al labs del centre, que prèviament he creat un nou domini amb DNS.
 
-## Atenció
-Un cop comenceu heu de canviar aquesta explicació amb la corresponent al vostre projecte (utilitzant markdown)
+Anar a la carpeta public_html del domini que he creat i utilitzo la comanda wget per agafar els arxius que he treballat. (arxius han d'estar en format RAW)
 
-
-# Aquest fitxer ha de contenir com a mínim:
- * Nom dels integrants
- * Nom del projecte
- * Petita descripció
- * URL de producció (quan la tingueu)
- * Estat: (explicació de en quin punt està)
+http://portadayenifer.alumnes.inspedralbes.cat/
